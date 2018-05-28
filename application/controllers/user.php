@@ -42,11 +42,9 @@ class User extends CI_Controller
 	function del($id){
 		$this->Data_user->del($id);
 
-		redirect('user/Table');
+		redirect('user/form');
 	}
 	function edit($id){}
 	function detail($id){}
 
 } 
-
-
